@@ -5,6 +5,7 @@ C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.gen
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.AssemblyInfoInputs.cache
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.AssemblyInfo.cs
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.csproj.CoreCompileInputs.cache
+C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.sourcelink.json
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\testhost.dll
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\testhost.exe
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
@@ -175,4 +176,3 @@ C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\refint\TesterTalk_T
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.pdb
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.genruntimeconfig.cache
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\ref\TesterTalk_Tute.dll
-C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.sourcelink.json
