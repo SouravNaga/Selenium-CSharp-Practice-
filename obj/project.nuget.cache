@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3JDGXW/FBTw=",
+  "dgSpecHash": "qtBA2o5RHAo=",
   "success": true,
   "projectFilePath": "C:\\Users\\soura\\source\\repos\\TesterTalk_Tute\\TesterTalk_Tute.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\soura\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\soura\\.nuget\\packages\\microsoft.edge.seleniumtools\\3.141.3\\microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.9.0\\microsoft.testing.extensions.telemetry.1.9.0.nupkg.sha512",
@@ -22,11 +23,26 @@
     "C:\\Users\\soura\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\nunit3testadapter\\5.2.0\\nunit3testadapter.5.2.0.nupkg.sha512",
+    "C:\\Users\\soura\\.nuget\\packages\\selenium.mozilla.firefox.webdriver\\0.6.0.1\\selenium.mozilla.firefox.webdriver.0.6.0.1.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\selenium.support\\4.36.0\\selenium.support.4.36.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\selenium.webdriver\\4.36.0\\selenium.webdriver.4.36.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\selenium.webdriver.chromedriver\\141.0.7390.7800\\selenium.webdriver.chromedriver.141.0.7390.7800.nupkg.sha512",
+    "C:\\Users\\soura\\.nuget\\packages\\selenium.webdriver.msedgedriver\\141.0.3537.71\\selenium.webdriver.msedgedriver.141.0.3537.71.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\soura\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: Microsoft.Edge.SeleniumTools 3.141.3 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.36.0 was resolved.",
+      "projectPath": "C:\\Users\\soura\\source\\repos\\TesterTalk_Tute\\TesterTalk_Tute.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\soura\\source\\repos\\TesterTalk_Tute\\TesterTalk_Tute.csproj",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

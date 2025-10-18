@@ -15,7 +15,9 @@ namespace TesterTalk_Tute.BaseClass
         public void open()
         {
             driver = new ChromeDriver();
-            driver.Url = "https://www.facebook.com";
+            //driver.Url = "https://www.facebook.com";
+            driver.Manage().Window.Maximize();
+            driver.Url = "https://dd-demo-tau.vercel.app/web_elements.html";
             Console.WriteLine("Test");
         }
         [TearDown]
