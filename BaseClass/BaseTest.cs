@@ -16,6 +16,7 @@ namespace TesterTalk_Tute.BaseClass
         {
             driver = new ChromeDriver();
             driver.Url = "https://www.facebook.com";
+            Console.WriteLine("Test");
         }
         [TearDown]
         public void close()
