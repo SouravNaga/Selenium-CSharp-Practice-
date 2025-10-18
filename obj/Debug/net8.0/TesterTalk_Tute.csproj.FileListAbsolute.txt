@@ -175,3 +175,4 @@ C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\refint\TesterTalk_T
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.pdb
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.genruntimeconfig.cache
 C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\ref\TesterTalk_Tute.dll
+C:\Users\soura\source\repos\TesterTalk_Tute\obj\Debug\net8.0\TesterTalk_Tute.sourcelink.json

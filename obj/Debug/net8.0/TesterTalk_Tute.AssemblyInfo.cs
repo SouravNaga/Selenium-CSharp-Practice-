@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesterTalk_Tute")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72cf7b3bc5c2ad69ee350b4769c9ad96471a894a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesterTalk_Tute")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesterTalk_Tute")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
