@@ -37,6 +37,18 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
+      "Microsoft.Edge.SeleniumTools/3.141.3": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "[3.141.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {}
+        }
+      },
       "Microsoft.NET.Test.Sdk/17.8.0": {
         "type": "package",
         "dependencies": {
@@ -694,6 +706,9 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
       },
+      "Selenium.Mozilla.Firefox.Webdriver/0.6.0.1": {
+        "type": "package"
+      },
       "Selenium.Support/4.36.0": {
         "type": "package",
         "dependencies": {
@@ -744,6 +759,12 @@
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.MSEdgeDriver/141.0.3537.71": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.MSEdgeDriver.targets": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.0": {
@@ -913,6 +934,21 @@
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.17.8.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.Edge.SeleniumTools/3.141.3": {
+      "sha512": "t20ScE4OHq7dTSU4NS4nhELJPppq7MI8bR8qvDkbfWw/bbh2BBLBBmAruJ0rARxYAT4xvBqud/ORauXfF3LpkQ==",
+      "type": "package",
+      "path": "microsoft.edge.seleniumtools/3.141.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Microsoft.Edge.SeleniumTools.dll",
+        "lib/net40/Microsoft.Edge.SeleniumTools.dll",
+        "lib/net45/Microsoft.Edge.SeleniumTools.dll",
+        "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll",
+        "microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
+        "microsoft.edge.seleniumtools.nuspec"
       ]
     },
     "Microsoft.NET.Test.Sdk/17.8.0": {
@@ -1882,6 +1918,22 @@
         "nunit_256.png"
       ]
     },
+    "Selenium.Mozilla.Firefox.Webdriver/0.6.0.1": {
+      "sha512": "gW7ODClQCQNr146qkcTx5RiOeSsrahQ4B5nUNk3NDXVQ4T1i9yPGd66NomRcuszOCJj3XNc/0xmUz27/0xYovA==",
+      "type": "package",
+      "path": "selenium.mozilla.firefox.webdriver/0.6.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Driver/wires-0.6.0-win.exe",
+        "content/Readme.txt",
+        "selenium.mozilla.firefox.webdriver.0.6.0.1.nupkg.sha512",
+        "selenium.mozilla.firefox.webdriver.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Selenium.Support/4.36.0": {
       "sha512": "3/kioF20M28FKkCccmxDqMYZy9j1G4H37dcHfPgTPiOAlQXrqV/moWoV56o2TVFLhZw7o53PlsMp6Y8br9Z3lg==",
       "type": "package",
@@ -1942,6 +1994,25 @@
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
+    "Selenium.WebDriver.MSEdgeDriver/141.0.3537.71": {
+      "sha512": "ctVx7buR/izA/QwgzOPPOWg8ciUizsyjtHPzMWySJRas0M+Db1fqve1Op4+P3QlCQPLbCkDOgtdmPHcOqL22kQ==",
+      "type": "package",
+      "path": "selenium.webdriver.msedgedriver/141.0.3537.71",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/DefinePropertiesMSEdgeDriver.targets",
+        "build/Selenium.WebDriver.MSEdgeDriver.targets",
+        "driver/linux64/msedgedriver",
+        "driver/mac64/msedgedriver",
+        "driver/win32/msedgedriver.exe",
+        "driver/win64/msedgedriver.exe",
+        "selenium.webdriver.msedgedriver.141.0.3537.71.nupkg.sha512",
+        "selenium.webdriver.msedgedriver.nuspec"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/5.0.0": {
       "sha512": "tCQTzPsGZh/A9LhhA6zrqCRV4hOHsK90/G7q3Khxmn6tnB1PuNU0cRaKANP2AWcF9bn0zsuOoZOSrHuJk6oNBA==",
       "type": "package",
@@ -1994,13 +2065,16 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.Edge.SeleniumTools >= 3.141.3",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 5.2.0",
+      "Selenium.Mozilla.Firefox.Webdriver >= 0.6.0.1",
       "Selenium.Support >= 4.36.0",
       "Selenium.WebDriver >= 4.36.0",
       "Selenium.WebDriver.ChromeDriver >= 141.0.7390.7800",
+      "Selenium.WebDriver.MSEdgeDriver >= 141.0.3537.71",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -2054,6 +2128,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.Edge.SeleniumTools": {
+            "target": "Package",
+            "version": "[3.141.3, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
@@ -2070,6 +2148,10 @@
             "target": "Package",
             "version": "[5.2.0, )"
           },
+          "Selenium.Mozilla.Firefox.Webdriver": {
+            "target": "Package",
+            "version": "[0.6.0.1, )"
+          },
           "Selenium.Support": {
             "target": "Package",
             "version": "[4.36.0, )"
@@ -2081,6 +2163,10 @@
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
             "version": "[141.0.7390.7800, )"
+          },
+          "Selenium.WebDriver.MSEdgeDriver": {
+            "target": "Package",
+            "version": "[141.0.3537.71, )"
           },
           "coverlet.collector": {
             "target": "Package",
@@ -2106,5 +2192,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.Edge.SeleniumTools 3.141.3 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.36.0 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

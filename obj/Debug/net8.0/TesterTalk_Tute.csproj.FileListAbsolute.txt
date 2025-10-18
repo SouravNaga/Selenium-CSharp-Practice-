@@ -20,6 +20,7 @@ C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\TesterTalk_Tute.dll
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\TesterTalk_Tute.pdb
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\Microsoft.ApplicationInsights.dll
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\Microsoft.Edge.SeleniumTools.dll
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\Microsoft.Testing.Extensions.Telemetry.dll
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
 C:\Users\soura\source\repos\TesterTalk_Tute\bin\Debug\net8.0\Microsoft.Testing.Extensions.VSTestBridge.dll

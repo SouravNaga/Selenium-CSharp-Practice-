@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Edge.SeleniumTools": {
+              "target": "Package",
+              "version": "[3.141.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
@@ -66,6 +70,10 @@
               "target": "Package",
               "version": "[5.2.0, )"
             },
+            "Selenium.Mozilla.Firefox.Webdriver": {
+              "target": "Package",
+              "version": "[0.6.0.1, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.36.0, )"
@@ -77,6 +85,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[141.0.7390.7800, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[141.0.3537.71, )"
             },
             "coverlet.collector": {
               "target": "Package",

@@ -2,5 +2,5 @@
 using System.Runtime.InteropServices;
 using NUnit.Compatibility;
 
-[assembly: Parallelizable(ParallelScope.Children)]
-[assembly: LevelOfParallelism(4)]
+//[assembly: Parallelizable(ParallelScope.Children)]
+//[assembly: LevelOfParallelism(4)]
